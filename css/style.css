@@ -1,0 +1,9 @@
+/*********
+LAYOUT
+********/
+
+body{
+    background: url(../img/capa.png), url(../img/ruido.png), linear-gradient(50deg,#ff4169 , #7c26f8 ); /*gradiente linear*/ 
+    /*efeito com 2 backgrounds, o primeirop é transparente, o segundo é a cor que revela a opacidade do 1 background*/
+    background-attachment: fixed; /*mantem o plano de fundo fixo 
+}
