@@ -2,8 +2,9 @@
 LAYOUT
 ********/
 
-html,body{
+html,body, #home{
     height: 100%;
+    overflow-x: hidden; /* Esconde a barra de rolagem na horizontal*/
 }
 
 #home{
@@ -96,6 +97,9 @@ ESTRUTURA DE CONTEUDOS
 #serviços  h1,h2,h3{
     color: #7c25f8;
 }
+#recursos{
+    color: white;
+}
 
 #recursos h3{
     color: #9bf0e1
@@ -107,6 +111,11 @@ ESTRUTURA DE CONTEUDOS
 
 .albuns{
     padding: 10px 0; /*define espaçamento sueperior e inferior*/
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 
