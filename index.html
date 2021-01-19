@@ -83,12 +83,45 @@
         <div class="row"><!--Row-->
 
           <div class="col-md-12 capa">
-            <h1>Música para todos</h1> <!--btn-custom = botao personalizado no style.css-->
-            <a href="" class="btn btn-custom btn-roxo">Aproveite o Spotify Free</a>
-          
-            <a href="" class="btn btn-custom btn-branco">Obter Spotify Premium</a>
+            
+            <div class="carousel slide" id="carousel-spotify" data-ride="carousel"><!--Inicio carousel-->
 
-          </div>
+              <div class="carousel-inner"><!--inner-->
+
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+                  <a href="" class="btn btn-lg btn-custom btn-roxo">
+                    Aproveite o Spotify Free
+                  </a>
+
+                  <a href="" class=" btn btn-lg btn-custom btn-branco">
+                    Obter Spotify Premium
+                  </a>
+
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As Melhores Rádios</h1>
+
+                  <a href="" class=" btn btn-lg btn-custom btn-branco">
+                  <i class="fas fa-music"></i> Ouça Agora
+                  </a>
+
+                </div>
+                
+              </div><!--/inner-->
+
+              <!--Controles-->
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i><!--icone de seta para esquerda-->
+              </a><!--fa-3x aumenta 3 vezes o tamanho do icone-->
+
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i><!--icone de seta para direita-->
+              </a><!--fa-3x aumenta 3 vezes o tamanho do icone-->
+
+
+            </div><!--/Carousel-->
 
         </div><!--/Row-->
       </div><!--/Container-->
